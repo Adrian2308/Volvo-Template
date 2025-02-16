@@ -1,0 +1,443 @@
+@import url(../css/volvo-broad-font/stylesheet.css);
+@import url(../css/fontawesome-free-6.1.1-web/css/all.min.css);
+:root{
+    --color-blanco: #ffffff;
+    --color-negro: #000000;
+    --color1: #a3a3a3;
+    --color2: #707070;
+    --color3: #1c6bba;
+    --color4: #284e80;
+    --color5: #fafafa;
+    --color6: #ebebeb;
+}
+body{
+    margin: 0;
+    font-family: 'volvobroadregular';
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+h1{
+    display: block;
+    font-size: 4.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2{
+    display: block;
+    font-size: 3.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: var(--color1);
+}
+p{
+    margin: 0;
+}
+img{
+    display: block;
+}
+/********************* Id's *************************/
+#main-header{
+    background-color: var(--color5);
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+#recharge{
+    margin-top: 70px;
+}
+#modelos{
+    margin: 200px 10px 10px 10px;
+}
+#galery{
+    margin-top: 106.204px;
+    margin-bottom: 106.204px;
+}
+/******************** Clases principales **********************/
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1232px;
+}
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+.padding-LR-8{
+    padding: 0 8px;
+}
+.padding-BT-12{
+    padding: 12px 0;
+}
+.padding-T-106{
+    padding-top: 106.204px;
+}
+.margin-LR-12{
+    margin: 0 12px;
+}
+.margin-L-16{
+    margin-left: 16px;
+}
+.margin-R-24{
+    margin-right: 24px;
+}
+.margin-B-16{
+    margin-bottom: 16px;
+}
+.margin-B-53{
+    margin-bottom: 53.12px;
+}
+.margin-B-56{
+    margin-bottom: 56px;
+}
+.margin-B-64{
+    margin-bottom: 64px;
+}
+.margin-T-48{
+    margin-top: 48px;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.col-w-56{
+    width: 56%;
+}
+.col-50{
+    width: 50%;
+}
+.col-w-44{
+    width: 44%;
+}
+.col394{
+    width: 394.67px;
+    height: auto;
+}
+.logo{
+    width: 130px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.logo-box{
+    width: 114px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.img-logo{
+    height: 8px;
+    width: 98px;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.img-banner{
+    position: relative;
+}
+.video-banner{
+    width: 100%;
+    height: 50%;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+}
+.sb{
+    justify-content: space-between;
+}
+/**************** clases banner *************/
+.banner-descrip{
+    position: absolute;
+    width: 610px;
+    height: 318px;
+    top: 9.15%;
+    left: 35%;
+    text-align: center;
+}
+.banner-h4{
+    color: var(--color-blanco);
+    font-style: normal;
+    font-size: 1.65rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.08rem;
+}
+.banner-h1{
+    color: var(--color-blanco);
+    font-size: 4.5rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+}
+.banner-btn{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12px;
+}
+.banner-a{
+    display: block;
+    box-sizing: border-box;
+}
+/********************* clases recharge *********************/
+.recharge-title{
+    line-height: 1.125;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    padding: 16px 0 16px 0;
+    text-align: center;
+}
+.recharge-box{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: center
+}
+.recharge-box-text{
+    max-width: 708.9px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.t1{
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125;
+}
+.t2{
+    color: var(--color2);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125;
+}
+/*********************** Galery ****************************/
+.galery-top{
+    margin: 6px 6px;
+}
+.galery-bot{
+    margin: 6px 6px;
+    display: flex;
+}
+.pic{
+    box-sizing: border-box;
+    height: 376.73px;
+    width: 100%;
+}
+.pic-margin{
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+.pic-m-l{
+    margin-left: 6px;
+}
+.pic-m-r{
+    margin-right: 6px;
+}
+/********************** Modelos ***********************/
+.model{
+    position: relative;
+}
+.model-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.model-descrip{
+    position: absolute;
+    top: 7%;
+    text-align: center;
+    color: var(--color-blanco);
+}
+.model-descrip p{
+    padding-bottom: 16px;
+    line-height: 1.57;
+    font-size: 1.475rem;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+    font-style: normal;
+}
+.model-descrip h3{
+    padding: 0 16px 16px 16px ;
+    line-height: 1;
+    font-size: 2.6rem;
+    font-weight: 400;
+    margin: 0;
+    max-width: 292px;
+}
+.l1{
+    left: 37%;
+}
+.l2{
+    left: 25%;
+}
+/**************************** why ******************************/
+.why-box{
+    background-color: var(--color5);
+    padding: 106px 0;
+    text-align: center;
+}
+.why-title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.why-video{
+    aspect-ratio: 16 / 9;
+    width: 92%;
+    height: auto;
+}
+.why-descrip{
+    width: 1232px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.why-subt{
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.why-descrip p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/************ footer *********************/
+.footer-top{
+    margin-top: 100px;
+    margin-bottom: 106px;
+}
+.footer-title{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.footer-enlaces{
+    width: 600px;
+    display: flex;
+    flex-flow: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-link{
+    padding: 24px 0;
+    color: var(--color3);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid var(--color6);
+    border-top: 1px solid var(--color6);
+}
+.footer-bot{
+    background-color: var(--color5);
+    padding: 24px 24px 32px 24px;
+}
+.footer-bot-content{
+    padding: 0 24px;
+    text-align: center;
+}
+.footer-bot-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 00.02em;
+    line-height: 1.66;
+    color: var(--color1);
+}
+.footer-bot-text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 00.02em;
+    line-height: 1.66;
+    padding: 4px 4px 0 4px;
+    margin: 8px 8px 4px 8px;
+    color: var(--color1);
+}
+/******************** Botones ****************/
+.btn-text-banner{
+    color: var(--color-blanco);
+    font-size: 1.175rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.08em;
+    box-sizing: border-box;
+    padding: 12px 0 12px 0;
+    transition: ease-out 300ms;
+}
+.btn-text-banner:hover{
+    color: var(--color1);
+    font-size: 1.175rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.08em;
+    box-sizing: border-box;
+    padding: 12px 0 12px 0;
+}
+.btn-galery{
+    color: var(--color3);
+    border: 1px solid var(--color3);
+    border-radius: 4px;
+    line-height: 22px;
+    padding: 12px 24px;
+    transition: ease-in-out 300ms;
+    font-size: 1.575rem;
+    box-sizing: border-box;
+}
+.btn-galery:hover{
+    border: 1px solid var(--color4);
+    background-color: var(--color4);
+    color: var(--color-blanco);
+    border-radius: 4px;
+    line-height: 22px;
+    padding: 12px 24px;
+    font-size: 1.575rem;
+    box-sizing: border-box;
+}
+.btn-text{
+    color: var(--color3);
+    padding: 12px 0;
+    font-size: 1.275rem;
+    line-height: .375rem;
+    letter-spacing: 0.02em;
+    padding: 0 16px;
+    transition: ease-out 300ms;
+}
+.btn-text:hover{
+    color: var(--color-negro);
+    padding: 12px 0;
+    font-size: 1.275rem;
+    line-height: .375rem;
+    letter-spacing: 0.02em;
+    padding: 0 16px;
+}
